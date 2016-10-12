@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-zt",
+  "version": "1.0.0",
+  "description": "ZeroTurnaround's ESLint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeroturnaround/eslint-config-zt"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "zeroturnaround",
+    "javascript",
+    "styleguide"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeroturnaround/eslint-config-zt/issues"
+  },
+  "homepage": "https://github.com/zeroturnaround/eslint-config-zt",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "eslint": "^3.7.1",
+    "babel-eslint": "^7.0.0",
+    "eslint-plugin-react": "^6.4.0"
+  },
+  "engines": {
+    "node": ">= 5"
+  }
+}
