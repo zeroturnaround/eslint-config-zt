@@ -68,25 +68,34 @@ const es6Rules = {
 };
 
 const reactRules = {
-    "display-name": 0,
 
-    "prop-types": 0,
+    "no-deprecated": 2,
 
-    "no-find-dom-node": 0,
+    "no-direct-mutation-state": 2,
+
+    "no-find-dom-node": 2,
+
+    "no-is-mounted": 2,
+
+    "no-render-return-value": 2,
+
+    "no-string-refs": 2,
+
+    "no-unknown-property": 2,
+
+    "prefer-es6-class": 2,
+
+    "react-in-jsx-scope": 2,
+
+    "self-closing-comp": 2,
+
+    "style-prop-object": 2,
 
     "jsx-closing-bracket-location": [2, "line-aligned"],
 
     "jsx-indent": [2, 4],
 
     "jsx-indent-props": [2, 4],
-
-    "style-prop-object": 2,
-
-    "self-closing-comp": 2,
-
-    "prefer-es6-class": 2,
-
-    "no-string-refs": 2,
 
     "jsx-space-before-closing": 2,
 
@@ -96,15 +105,22 @@ const reactRules = {
 
     "jsx-pascal-case": 2,
 
-    "jsx-max-props-per-line": [2, { maximum: 5 }],
+    "jsx-max-props-per-line": [2, { maximum: 3 }],
+
+    "jsx-no-duplicate-props": 2,
+
+    "jsx-no-undef": 2,
+
+    "jsx-uses-react": 2,
+
+    "jsx-uses-vars": 2,
 
     "jsx-wrap-multilines": 2,
 };
 
 module.exports = {
     extends: [
-        "eslint:recommended",
-        "plugin:react/recommended"
+        "eslint:recommended"
     ],
 
     env: {
