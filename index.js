@@ -85,10 +85,6 @@ const bestPracticeRules = {
     "radix": 2,
 };
 
-const strictModeRules = {
-    "strict": 2,
-};
-
 const variablesRules = {
     "no-delete-var": 2,
 
@@ -228,7 +224,6 @@ module.exports = {
         {},
         possibleErrorRules,
         bestPracticeRules,
-        strictModeRules,
         variablesRules,
         styleRules,
         es6Rules,
