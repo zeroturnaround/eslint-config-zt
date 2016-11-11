@@ -1,6 +1,3 @@
-const never = "never";
-const always = "always";
-
 const possibleErrorRules = {
     "no-cond-assign": 2,
 
@@ -106,19 +103,19 @@ const styleRules = {
 
     "linebreak-style": [2, "unix"],
 
-    "max-len": [2, 205, 4],
+    "max-len": [2, 140, 4],
 
     "no-mixed-spaces-and-tabs": 2,
 
     "no-multiple-empty-lines": [2, { max: 1 }],
 
-    "one-var": [2, never],
+    "one-var": [2, "never"],
 
     "operator-linebreak": [2, "after"],
 
     "space-before-blocks": 2,
 
-    "space-before-function-paren": [2, never],
+    "space-before-function-paren": [2, "never"],
 
     "spaced-comment": 2,
 
@@ -213,10 +210,6 @@ module.exports = {
     },
 
     plugins: ["react"],
-
-    ecmaFeatures: {
-        experimentalObjectRestSpread: true,
-    },
 
     parser: "babel-eslint",
 
