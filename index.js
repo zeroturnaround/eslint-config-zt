@@ -53,7 +53,13 @@ const possibleErrorRules = {
 };
 
 const bestPracticeRules = {
+    "array-callback-return": 2,
+
     "curly": 2,
+
+    "dot-location": [2, "property"],
+
+    "dot-notation": [2, {allowKeywords: true}],
 
     "guard-for-in": 2,
 
@@ -61,29 +67,93 @@ const bestPracticeRules = {
 
     "no-bitwise": 2,
 
+    "no-caller": 2,
+
     "no-case-declarations": 2,
+
+    "no-div-regex": 2,
 
     "no-empty-pattern": 2,
 
+    "no-extend-native": 2,
+
+    "no-extra-label": 2,
+
+    "no-extra-bind": 2,
+
     "no-fallthrough": 2,
+
+    "no-floating-decimal": 2,
+
+    "no-global-assign": 2,
+
+    "no-implicit-globals": 2,
+
+    "no-implied-eval": 2,
+
+    "no-iterator": 2,
+
+    "no-labels": 2,
+
+    "no-lone-blocks": 2,
 
     "no-multi-spaces": 2,
 
+    "no-multi-str": 2,
+
+    "no-new": 2,
+
+    "no-new-func": 2,
+
+    "no-new-wrappers": 2,
+
     "no-octal": 2,
+
+    "no-octal-escape": 2,
+
+    "no-proto": 2,
 
     "no-redeclare": 2,
 
+    "no-script-url": 2,
+
     "no-self-assign": 2,
+
+    "no-self-compare": 2,
+
+    "no-sequences": 2,
+
+    "no-unmodified-loop-condition": 2,
 
     "no-unused-labels": 2,
 
+    "no-useless-call": 2,
+
+    "no-useless-concat": 2,
+
+    "no-useless-escape": 2,
+
     "no-void": 2,
 
+    "no-with": 2,
+
     "radix": 2,
+
+    "wrap-iife": 2,
+
+    "yoda": 2,
 };
 
 const variablesRules = {
+    "no-catch-shadow": 2,
+
     "no-delete-var": 2,
+
+    "no-label-var": 2,
+
+    "no-restricted-globals": 2,
+
+    "no-shadow-restricted-names": 2,
 
     "no-undef": 2,
 
@@ -93,11 +163,19 @@ const variablesRules = {
 };
 
 const styleRules = {
+    "block-spacing": [2, "never"],
+
     "brace-style": [2, "stroustrup", { allowSingleLine: true }],
+
+    "comma-style": [2, "last"],
 
     "eol-last": 2,
 
+    "func-call-spacing": 2,
+
     "indent": [2, 4, { SwitchCase: 1 }],
+
+    "jsx-quotes": [2, "prefer-double"],
 
     "keyword-spacing": 2,
 
@@ -105,21 +183,37 @@ const styleRules = {
 
     "max-len": [2, 140, 4],
 
+    "no-array-constructor": 2,
+
+    "no-bitwise": 2,
+
+    "no-continue": 2,
+
     "no-mixed-spaces-and-tabs": 2,
 
     "no-multiple-empty-lines": [2, { max: 1 }],
+
+    "no-new-object": 2,
+
+    "no-unneeded-ternary": 2,
+
+    "no-whitespace-before-property": 2,
 
     "one-var": [2, "never"],
 
     "operator-linebreak": [2, "after"],
 
+    "semi-spacing": [2, { before: false, after: true }],
+
     "space-before-blocks": 2,
 
     "space-before-function-paren": [2, "never"],
 
+    "space-infix-ops": 2,
+
     "spaced-comment": 2,
 
-    "space-infix-ops": 2,
+    "wrap-regex": 2,
 };
 
 const es6Rules = {
@@ -139,6 +233,8 @@ const es6Rules = {
 
     "no-this-before-super": 2,
 
+    "no-useless-computed-key": 2,
+
     "no-useless-constructor": 2,
 
     "no-var": 2,
@@ -154,6 +250,10 @@ const es6Rules = {
 
 const reactRules = {
     "no-deprecated": 2,
+
+    "no-did-mount-set-state": 2,
+
+    "no-did-update-set-state": 2,
 
     "no-direct-mutation-state": 2,
 
@@ -179,6 +279,8 @@ const reactRules = {
 
     "jsx-indent": [2, 4],
 
+    "jsx-key": 2,
+
     "jsx-indent-props": [2, 4],
 
     "jsx-space-before-closing": 2,
@@ -190,6 +292,8 @@ const reactRules = {
     "jsx-pascal-case": 2,
 
     "jsx-max-props-per-line": [2, { maximum: 5 }],
+
+    "jsx-no-comment-textnodes": 2,
 
     "jsx-no-duplicate-props": 2,
 
