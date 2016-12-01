@@ -3,7 +3,7 @@ node_js: [ 6 ]
 cache:
     directories: [ node_modules ]
 before_deploy: >
-    node -e 'console.log(Object.assign(require("./package.json"), {version: process.env.TRAVIS_TAG}));' > package.json
+    ls -la && pwd && cat package.json && node -e 'console.log(Object.assign(require("./package.json"), {version: process.env.TRAVIS_TAG}));' > package.json
 deploy:
     provider: npm
     email: npm@zeroturnaround.com
