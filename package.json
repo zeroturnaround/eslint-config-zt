@@ -23,15 +23,15 @@
     "url": "https://github.com/zeroturnaround/eslint-config-zt/issues"
   },
   "homepage": "https://github.com/zeroturnaround/eslint-config-zt",
-  "dependencies": {
-    "eslint": "^3.7.1",
-    "babel-eslint": "^7.0.0"
-  },
   "devDependencies": {
+    "eslint": "^3.7.1",
+    "babel-eslint": "^7.0.0",
     "eslint-plugin-react": "^6.4.0"
   },
   "peerDependencies": {
-    "eslint-plugin-react": "^6.4.0"
+    "eslint": ">=3.7.1",
+    "babel-eslint": ">=7.0.0",
+    "eslint-plugin-react": ">=6.4.0"
   },
   "engines": {
     "node": ">= 6"
