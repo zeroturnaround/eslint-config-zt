@@ -1,11 +1,13 @@
 # ZeroTurnaround's ESLint config
 
 ## Installation
+
 ```shell
-$ npm install --save-dev github:zeroturnaround/eslint-config-zt
+$ yarn add --dev eslint-config-zt
 ```
 
 ## Usage
+
 ```yaml
 // .eslintrc.yml
 ---
@@ -16,3 +18,7 @@ rules:
     # Some overrides
     no-fallthrough: 0
 ```
+
+### Base rules
+
+Extend only `zt/base` when you don't use React in your project.

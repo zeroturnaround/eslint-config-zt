@@ -20,8 +20,7 @@
     "url": "https://github.com/zeroturnaround/eslint-config-zt/issues"
   },
   "homepage": "https://github.com/zeroturnaround/eslint-config-zt",
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "eslint": "^3.7.1",
     "babel-eslint": "^7.0.0",
