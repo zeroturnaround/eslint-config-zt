@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-zt-base",
+  "name": "eslint-config-zt",
   "version": "1.0.0",
-  "description": "ZeroTurnaround's ESLint base config",
+  "description": "ZeroTurnaround's ESLint config",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -12,7 +12,6 @@
     "eslintconfig",
     "config",
     "zeroturnaround",
-    "base",
     "javascript",
     "styleguide"
   ],
@@ -24,7 +23,8 @@
   "dependencies": {},
   "peerDependencies": {
     "eslint": "^3.7.1",
-    "babel-eslint": "^7.0.0"
+    "babel-eslint": "^7.0.0",
+    "eslint-plugin-react": "^6.4.0"
   },
   "engines": {
     "node": ">= 5"
