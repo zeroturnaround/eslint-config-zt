@@ -1,11 +1,14 @@
 {
   "name": "eslint-config-zt",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "ZeroTurnaround's ESLint config",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/zeroturnaround/eslint-config-zt"
+  },
+  "scripts": {
+      "test": "eslint -c ./index.js ."
   },
   "keywords": [
     "eslint",
@@ -20,13 +23,17 @@
     "url": "https://github.com/zeroturnaround/eslint-config-zt/issues"
   },
   "homepage": "https://github.com/zeroturnaround/eslint-config-zt",
-  "dependencies": {},
-  "peerDependencies": {
+  "dependencies": {
     "eslint": "^3.7.1",
-    "babel-eslint": "^7.0.0",
+    "babel-eslint": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^6.4.0"
+  },
+  "peerDependencies": {
     "eslint-plugin-react": "^6.4.0"
   },
   "engines": {
-    "node": ">= 5"
+    "node": ">= 6"
   }
 }
