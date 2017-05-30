@@ -36,7 +36,7 @@ module.exports = {
 
         "react/jsx-indent-props": [2, 4],
 
-        "react/jsx-space-before-closing": 2,
+        "react/jsx-tag-spacing": 2,
 
         "react/jsx-equals-spacing": 2,
 
