@@ -213,6 +213,8 @@ const styleRules = {
 
     "operator-linebreak": [2, "after"],
 
+    "semi": 2,
+
     "semi-spacing": [2, { before: false, after: true }],
 
     "space-before-blocks": 2,
