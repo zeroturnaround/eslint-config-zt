@@ -1,22 +1,22 @@
-# ZeroTurnaround's ESLint config
+# ZeroTurnaround's ESLint config [![Build Status](https://travis-ci.org/zeroturnaround/eslint-config-zt.svg?branch=master)](https://travis-ci.org/zeroturnaround/eslint-config-zt)
+
+ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for ZeroTurnaround JavaScript projects.
 
 ## Installation
 
 ```shell
-$ yarn add --dev eslint-config-zt
+$ npm install --save-dev eslint-config-zt
 ```
 
 ## Usage
 
-```yaml
-// .eslintrc.yml
----
-extends:
-  - "zt"
-
-rules:
-    # Some overrides
-    no-fallthrough: 0
+```js
+{
+  "extends": "zt",
+  "rules": {
+    // Additional, per-project rules...
+  }
+}
 ```
 
 ### Base rules
