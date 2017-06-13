@@ -61,6 +61,8 @@ const bestPracticeRules = {
 
     "dot-notation": [2, {allowKeywords: true}],
 
+    "eqeqeq": 2,
+
     "guard-for-in": 2,
 
     "no-alert": 2,
@@ -75,6 +77,8 @@ const bestPracticeRules = {
 
     "no-empty-pattern": 2,
 
+    "no-eval": 2,
+
     "no-extend-native": 2,
 
     "no-extra-label": 2,
@@ -87,6 +91,8 @@ const bestPracticeRules = {
 
     "no-global-assign": 2,
 
+    "no-implicit-coercion": [2, {"allow": ["!!"]}],
+
     "no-implicit-globals": 2,
 
     "no-implied-eval": 2,
@@ -96,6 +102,8 @@ const bestPracticeRules = {
     "no-labels": 2,
 
     "no-lone-blocks": 2,
+
+    "no-loop-func": 2,
 
     "no-multi-spaces": 2,
 
@@ -157,6 +165,8 @@ const variablesRules = {
 
     "no-undef": 2,
 
+    "no-undef-init": 2,
+
     "no-unused-vars": 2,
 
     "no-use-before-define": [2, "nofunc"],
@@ -202,6 +212,8 @@ const styleRules = {
     "one-var": [2, "never"],
 
     "operator-linebreak": [2, "after"],
+
+    "semi": 2,
 
     "semi-spacing": [2, { before: false, after: true }],
 
