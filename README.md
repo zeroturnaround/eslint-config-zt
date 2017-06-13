@@ -22,19 +22,10 @@ $ npm install --save-dev eslint babel-eslint eslint-config-zt
 
 ## Projects with React
 
-1. Add additional dependency `eslint-plugin-react`:
+1. Add additional dependency:
 
 ```shell
 $ npm install --save-dev eslint-plugin-react
 ```
 
-2. Extend both `zt/base` and `zt/react`:
-```js
-// .eslintrc
-{
-  "extends": ["zt/base", "zt/react"],
-  "rules": {
-    // Additional, per-project rules...
-  }
-}
-```
+2. Extend both `zt/base` and `zt/react`.
