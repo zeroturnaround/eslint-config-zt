@@ -5,20 +5,36 @@ ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-confi
 ## Installation
 
 ```shell
-$ npm install --save-dev eslint-config-zt
+$ npm install --save-dev eslint babel-eslint eslint-config-zt
 ```
 
 ## Usage
 
 ```js
+// .eslintrc
 {
-  "extends": "zt",
+  "extends": "zt/base",
   "rules": {
     // Additional, per-project rules...
   }
 }
 ```
 
-### Base rules
+## Projects with React
 
-Extend only `zt/base` when you don't use React in your project.
+1. Add additional dependency `eslint-plugin-react`:
+
+```shell
+$ npm install --save-dev eslint-plugin-react
+```
+
+2. Extend both `zt/base` and `zt/react`:
+```js
+// .eslintrc
+{
+  "extends": ["zt/base", "zt/react"],
+  "rules": {
+    // Additional, per-project rules...
+  }
+}
+```
