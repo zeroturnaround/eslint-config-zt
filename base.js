@@ -219,7 +219,11 @@ const styleRules = {
 
     "space-before-blocks": 2,
 
-    "space-before-function-paren": [2, "never"],
+    "space-before-function-paren": [2, {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always"
+    }],
 
     "space-infix-ops": 2,
 
