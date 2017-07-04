@@ -105,7 +105,7 @@ const bestPracticeRules = {
 
     "no-loop-func": 2,
 
-    "no-multi-spaces": 2,
+    "no-multi-spaces": [2, {"ignoreEOLComments": true}],
 
     "no-multi-str": 2,
 
